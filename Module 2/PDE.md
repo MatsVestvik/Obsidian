@@ -1,0 +1,13 @@
+- [[Partial Differential Equation]]
+- [[Randbetingelse, initialbetingelse]]
+- [[Orden og Linearitet]]
+- [[Transportligning]]
+- [[Bevaringslov]]
+- [[Tetthet, fluks]]
+- [[Lax-Friedrichs’ metode]]
+- [[Laplace Transformasjon]]
+- [[Randbetingelser: Dirichlet, Neumann]]
+- [[5-punkts stencil]]
+- [[Stabilitet]]
+- [[Iterative løsningsmetoder]]
+- 

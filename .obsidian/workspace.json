@@ -1,0 +1,273 @@
+{
+  "main": {
+    "id": "7f9a5fa4e07166db",
+    "type": "split",
+    "children": [
+      {
+        "id": "ffa2ebea327ac6c0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b99be80bf263cb7e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Module 3/Discrete mathematics.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Discrete mathematics"
+            }
+          },
+          {
+            "id": "e1dd91c240214c11",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Module 2/Laplace Transformasjon.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Laplace Transformasjon"
+            }
+          },
+          {
+            "id": "75be5e1648977b02",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Module 1/Taylorpolynom.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Taylorpolynom"
+            }
+          },
+          {
+            "id": "b87df4aebd73c6a4",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "IMAT2024.canvas",
+                "viewState": {
+                  "x": -63.14943365491662,
+                  "y": 265.1921642542354,
+                  "zoom": -1.4543032915919882
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "IMAT2024"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5379c60318c5386b",
+    "type": "split",
+    "children": [
+      {
+        "id": "dd04c6298c641a67",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "454130159405f22a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "2e9e7d2387f113d6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#Liste",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "33c1a480304be9a6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 288.5
+  },
+  "right": {
+    "id": "677f4700477d5715",
+    "type": "split",
+    "children": [
+      {
+        "id": "34c2450d0c09ba1d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a66cd6f37b9da618",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "IMAT2024.canvas",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for IMAT2024"
+            }
+          },
+          {
+            "id": "413472b8e33c12f7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Module 3/Venn diagrams and notations.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Venn diagrams and notations"
+            }
+          },
+          {
+            "id": "8bc72061bf037718",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "bbe836b466df7df4",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "a33d76834d7e58d4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Module 3/Venn diagrams and notations.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Venn diagrams and notations"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "b87df4aebd73c6a4",
+  "lastOpenFiles": [
+    "README.md",
+    "Module 2/Laplace Transformasjon.md",
+    "Module 2/PDE.md",
+    "IMAT2024.canvas",
+    "Module 3/Discrete mathematics.md",
+    "Module 1/Taylorpolynom.md",
+    "Module 1/Partial Derivative.md",
+    "Module 1/Level Set.md",
+    "Module 1/Hessematrise.md",
+    "Module 1/Hesse.png",
+    "Module 1/Gradient.md",
+    "Module 1/Function of mulitple variables.md",
+    "Module 1/Common.md",
+    "Module 1/3D Plot.md",
+    "Module 1/3D.png",
+    "Module 3/numbers.png",
+    "Pasted image 20260314155845.png",
+    "Pasted image 20260314155803.png",
+    "IMAT2024.md",
+    "Module 3/Quantities.md",
+    "Module 3/venn.png",
+    "Module 3/Venn diagrams and notations.md",
+    "Module 3/venn diagram.canvas",
+    "Untitled.base",
+    "tips and tricks/Tips & Tricks.md",
+    "link to note.md",
+    "tips and tricks",
+    "Pasted image 20260313161040.png",
+    "Pasted image 20260313161155.png",
+    "Pasted image 20260313145406.png",
+    "Pasted image 20260313143916.png",
+    "Module 1",
+    "Untitled.md",
+    "Module 2",
+    "Module 3",
+    "Diskrè matematikk.md",
+    "Welcome.md",
+    "create a link.md"
+  ]
+}
