@@ -1,0 +1,1 @@
+This contains my math notes. Recomend using Obsidian to view and edit them. Very good prograanm

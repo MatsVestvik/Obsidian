@@ -1,7 +1,14 @@
 
 
 Hesse matrisen er en matrise som inneholder de partiellderiverte til en funksjon:
-![[hesse.png]]
+
+$$
+H = \begin{pmatrix}
+\frac{\partial^2 f}{\partial x^2} & \frac{\partial^2 f}{\partial x \partial y} \\[6pt]
+\frac{\partial^2 f}{\partial y \partial x} & \frac{\partial^2 f}{\partial y^2}
+\end{pmatrix}
+$$
+
 har funksjonen tre variabler vil hesse matrisen være 3x3 også videre
 
 Den kan brukes til å finne ut om et punkt er et topp, bunn eller sadelpunkt.

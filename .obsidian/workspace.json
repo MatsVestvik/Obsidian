@@ -8,66 +8,38 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b99be80bf263cb7e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Module 3/Discrete mathematics.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Discrete mathematics"
-            }
-          },
-          {
-            "id": "e1dd91c240214c11",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Module 2/Laplace Transformasjon.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Laplace Transformasjon"
-            }
-          },
-          {
             "id": "75be5e1648977b02",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Module 1/Taylorpolynom.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Taylorpolynom"
-            }
-          },
-          {
-            "id": "b87df4aebd73c6a4",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
                 "file": "IMAT2024.canvas",
                 "viewState": {
-                  "x": -63.14943365491662,
-                  "y": 265.1921642542354,
-                  "zoom": -1.4543032915919882
+                  "x": -1059.3918072661465,
+                  "y": -1295.5640730024365,
+                  "zoom": -0.8005782180927424
                 }
               },
               "icon": "lucide-layout-dashboard",
               "title": "IMAT2024"
             }
+          },
+          {
+            "id": "c761a7eb7a1d4b7a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -229,14 +201,25 @@
       "bases:Create new base": false
     }
   },
-  "active": "b87df4aebd73c6a4",
+  "active": "c761a7eb7a1d4b7a",
   "lastOpenFiles": [
-    "README.md",
-    "Module 2/Laplace Transformasjon.md",
-    "Module 2/PDE.md",
     "IMAT2024.canvas",
+    "Module 3/Utsagns Logikk.md",
+    "Module 3/Argumenter.md",
+    "Module 3/Venn diagrams and notations.md",
     "Module 3/Discrete mathematics.md",
+    "Module 2/Laplace Transformasjon.md",
+    "Module 1/Feilledd.md",
+    "Module 3/venn.png",
+    "Module 3/Quantities.md",
+    "Module 3/numbers.png",
+    "Module 3/numbers-removebg-preview.png",
+    "Module 1/TangentPlan.png",
+    "Module 1/Tangentplan.md",
     "Module 1/Taylorpolynom.md",
+    "IMAT2024.md",
+    "README.md",
+    "Module 2/PDE.md",
     "Module 1/Partial Derivative.md",
     "Module 1/Level Set.md",
     "Module 1/Hessematrise.md",
@@ -246,13 +229,8 @@
     "Module 1/Common.md",
     "Module 1/3D Plot.md",
     "Module 1/3D.png",
-    "Module 3/numbers.png",
     "Pasted image 20260314155845.png",
     "Pasted image 20260314155803.png",
-    "IMAT2024.md",
-    "Module 3/Quantities.md",
-    "Module 3/venn.png",
-    "Module 3/Venn diagrams and notations.md",
     "Module 3/venn diagram.canvas",
     "Untitled.base",
     "tips and tricks/Tips & Tricks.md",
@@ -260,8 +238,6 @@
     "tips and tricks",
     "Pasted image 20260313161040.png",
     "Pasted image 20260313161155.png",
-    "Pasted image 20260313145406.png",
-    "Pasted image 20260313143916.png",
     "Module 1",
     "Untitled.md",
     "Module 2",

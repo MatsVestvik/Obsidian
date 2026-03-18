@@ -1,2 +1,3 @@
 - [[Venn diagrams and notations]]
 - [[Quantities]]
+- [[Utsagns Logikk]]
