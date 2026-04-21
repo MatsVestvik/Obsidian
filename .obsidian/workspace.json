@@ -15,31 +15,16 @@
               "state": {
                 "file": "IMAT2024.canvas",
                 "viewState": {
-                  "x": -1059.3918072661465,
-                  "y": -1295.5640730024365,
-                  "zoom": -0.8005782180927424
+                  "x": 935.5037119999998,
+                  "y": -285,
+                  "zoom": -2.5554235315619
                 }
               },
               "icon": "lucide-layout-dashboard",
               "title": "IMAT2024"
             }
-          },
-          {
-            "id": "c761a7eb7a1d4b7a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "README"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -201,9 +186,15 @@
       "bases:Create new base": false
     }
   },
-  "active": "c761a7eb7a1d4b7a",
+  "active": "75be5e1648977b02",
   "lastOpenFiles": [
+    "35x+21y=10.md",
+    "Least Common Multiplum.md",
+    "Module 3/Predikater.md",
+    "README.md",
     "IMAT2024.canvas",
+    "Euklidis.md",
+    "Module 3/Tallære.md",
     "Module 3/Utsagns Logikk.md",
     "Module 3/Argumenter.md",
     "Module 3/Venn diagrams and notations.md",
@@ -218,7 +209,6 @@
     "Module 1/Tangentplan.md",
     "Module 1/Taylorpolynom.md",
     "IMAT2024.md",
-    "README.md",
     "Module 2/PDE.md",
     "Module 1/Partial Derivative.md",
     "Module 1/Level Set.md",
@@ -239,11 +229,7 @@
     "Pasted image 20260313161040.png",
     "Pasted image 20260313161155.png",
     "Module 1",
-    "Untitled.md",
     "Module 2",
-    "Module 3",
-    "Diskrè matematikk.md",
-    "Welcome.md",
-    "create a link.md"
+    "Module 3"
   ]
 }
