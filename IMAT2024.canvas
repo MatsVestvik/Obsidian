@@ -14,10 +14,14 @@
 		{"id":"032c68cd9a689c0c","type":"file","file":"Module 1/Partial Derivative.md","x":1640,"y":-154,"width":400,"height":325,"color":"5"},
 		{"id":"b69cfb35932b0385","type":"text","text":"IMAT2024","x":13,"y":-51,"width":250,"height":60,"color":"#0008ff"},
 		{"id":"6c6d2229ae045561","type":"file","file":"Module 3/Tallære.md","x":-120,"y":-860,"width":666,"height":668,"color":"2"},
-		{"id":"f252a127013c5218","type":"file","file":"Module 3/Predikater.md","x":-633,"y":-1960,"width":893,"height":780,"color":"2"},
-		{"id":"369582ace0db95b9","type":"file","file":"Least Common Multiplum.md","x":662,"y":-2340,"width":400,"height":498,"color":"2"},
-		{"id":"8d6100adb0e34c69","type":"file","file":"Euklidis.md","x":1410,"y":-2091,"width":701,"height":1157,"color":"2"},
-		{"id":"03aaf3570724c50f","x":1194,"y":-2623,"width":400,"height":400,"color":"2","type":"file","file":"35x+21y=10.md"}
+		{"id":"369582ace0db95b9","type":"file","file":"Module 3/Least Common Multiplum.md","x":662,"y":-2340,"width":400,"height":498,"color":"2"},
+		{"id":"8d6100adb0e34c69","type":"file","file":"Module 3/Euklidis.md","x":1410,"y":-2091,"width":701,"height":1157,"color":"2"},
+		{"id":"03aaf3570724c50f","type":"file","file":"Module 3/Lineær diafontisk ligning.md","x":1194,"y":-2623,"width":400,"height":400,"color":"2"},
+		{"id":"3059b5463f4267f6","type":"file","file":"Module 3/Generell løsning.md","x":1720,"y":-3320,"width":969,"height":1040,"color":"2"},
+		{"id":"f252a127013c5218","type":"file","file":"Module 3/Predikater.md","x":-914,"y":-2542,"width":893,"height":780,"color":"2"},
+		{"id":"f3342dc180ccf2bb","type":"file","file":"Module 3/Kongruens regning.md","x":-433,"y":-1691,"width":400,"height":400,"color":"2"},
+		{"id":"36d62be8d30acb71","type":"file","file":"Module 3/GrafTeori.md","x":40,"y":-3840,"width":600,"height":1380,"color":"2"},
+		{"id":"acfd8c3fb50b0ff3","x":760,"y":-3840,"width":400,"height":1298,"color":"2","type":"file","file":"Enkel graf.md"}
 	],
 	"edges":[
 		{"id":"908b4d82ce6b5988","fromNode":"b69cfb35932b0385","fromSide":"right","toNode":"f76ad6c683a5afaf","toSide":"left"},
@@ -36,6 +40,10 @@
 		{"id":"7fb2890a4b939ea4","fromNode":"b69cfb35932b0385","fromSide":"top","toNode":"6c6d2229ae045561","toSide":"bottom"},
 		{"id":"d3146eaae4104f03","fromNode":"e424531ec0e266bc","fromSide":"top","toNode":"f252a127013c5218","toSide":"left"},
 		{"id":"d65753dd62af8121","fromNode":"6c6d2229ae045561","fromSide":"right","toNode":"369582ace0db95b9","toSide":"left"},
-		{"id":"4ea1675a45544205","fromNode":"8d6100adb0e34c69","fromSide":"top","toNode":"03aaf3570724c50f","toSide":"bottom"}
+		{"id":"4ea1675a45544205","fromNode":"8d6100adb0e34c69","fromSide":"top","toNode":"03aaf3570724c50f","toSide":"bottom"},
+		{"id":"540890c57e32cc28","fromNode":"03aaf3570724c50f","fromSide":"right","toNode":"3059b5463f4267f6","toSide":"left"},
+		{"id":"21fdd6a7408dc080","fromNode":"6c6d2229ae045561","fromSide":"top","toNode":"f3342dc180ccf2bb","toSide":"bottom"},
+		{"id":"d17a572262ddb107","fromNode":"36d62be8d30acb71","fromSide":"right","toNode":"acfd8c3fb50b0ff3","toSide":"left"},
+		{"id":"d6f1bf6541c6dce1","fromNode":"6c6d2229ae045561","fromSide":"top","toNode":"36d62be8d30acb71","toSide":"bottom"}
 	]
 }

@@ -1,0 +1,1 @@
+kongurens regning betyr å regne med restleddet i en modulus operasjon. Dette leddet er altså kalt kongurenten.
