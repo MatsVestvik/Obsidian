@@ -1,44 +1,56 @@
-At its core, a **Taylor polynomial** is a way to approximate a complicated function $f(x)$ near a specific point with a much simpler polynomial.
+## Intuitiv forståelse
+Taylor-polynomer er en metode for å **approksimere en komplisert funksjon $f(x)$ med et polynom** i nærheten av et punkt $x = a$.
 
-The idea is to create a polynomial that has the same value, the same slope (first derivative), the same curvature (second derivative), and so on, as the original function at that chosen point.
+Ideen er: Hvis vi vet alt om funksjonen i ett enkelt punkt (funksjonsverdi, stigningstall, krumning osv.), kan vi gjette hvordan funksjonen ser ut like i nærheten.
 
->[!Formula]
->For a function $f(x)$ that is differentiable $n$ times at a point $x=a$, its Taylor polynomial of degree $n$, denoted $P_n(x)$, is:
->$$
->Pn(x)=f(a)+f′(a)(x−a)+f′′(a)2!(x−a)2+f′′′(a)3!(x−a)3+⋯+f(n)(a)n!(x−a)n
->$$
->This can be written more compactly with summation notation:
->$$
->Pn(x)=∑k=0nf(k)(a)k!(x−a)k
->$$
+## Definisjon
+Taylor-polynomet av grad $n$ for funksjonen $f$ om punktet $x = a$ er gitt ved:
 
-#### How It Works
+$$P_n(x) = f(a) + f'(a)(x-a) + \frac{f''(a)}{2!}(x-a)^2 + \frac{f'''(a)}{3!}(x-a)^3 + \dots + \frac{f^{(n)}(a)}{n!}(x-a)^n$$
 
-The terms of the polynomial are designed to match the function's derivatives at the center point $a$:
+På summeform:
+$$P_n(x) = \sum_{k=0}^{n} \frac{f^{(k)}(a)}{k!}(x-a)^k$$
+hvor $f^{(k)}(a)$ er den $k$-te deriverte evaluert i $a$, og $k!$ er fakultet av $k$.
 
-- **0th-degree term:** $f(a)$ ensures $P_n(a) = f(a)$. (Match the value)
-    
-- **1st-degree term:** $f'(a)(x-a)$ ensures $P_n'(a) = f'(a)$. (Match the slope)
-    
-- **2nd-degree term:** $\frac{f''(a)}{2!}(x-a)^2$ ensures $P_n''(a) = f''(a)$. (Match the curvature)
-    
-- ...and so on for all higher-order terms.
-    
+## Spesialtilfellet Maclaurin-polynom
+Når $a = 0$ kalles det et **Maclaurin-polynom**:
+$$P_n(x) = \sum_{k=0}^{n} \frac{f^{(k)}(0)}{k!}x^k$$
 
-#### Important Special Cases
+## Viktige Maclaurin-rekker (utviklinger)
+Disse bør pugges:
 
->[!Tip]
->- **$a=0$:** When the center point is 0, the polynomial is often called a **Maclaurin polynomial**. The formula simplifies to:  
->$$
->Pn(x)=f(0)+f′(0)x+f′′(0)2!x2+⋯+f(n)(0)n!xn
->$$   
+| Funksjon $f(x)$ | Taylor-rekke (Maclaurin) |
+| :--- | :--- |
+| $e^x$ | $1 + x + \frac{x^2}{2!} + \frac{x^3}{3!} + \dots = \sum_{k=0}^{\infty} \frac{x^k}{k!}$ |
+| $\sin x$ | $x - \frac{x^3}{3!} + \frac{x^5}{5!} - \dots = \sum_{k=0}^{\infty} (-1)^k \frac{x^{2k+1}}{(2k+1)!}$ |
+| $\cos x$ | $1 - \frac{x^2}{2!} + \frac{x^4}{4!} - \dots = \sum_{k=0}^{\infty} (-1)^k \frac{x^{2k}}{(2k)!}$ |
+| $\ln(1+x)$ | $x - \frac{x^2}{2} + \frac{x^3}{3} - \frac{x^4}{4} + \dots = \sum_{k=1}^{\infty} (-1)^{k+1} \frac{x^k}{k}$ |
+| $(1+x)^\alpha$ (Binomisk) | $1 + \alpha x + \frac{\alpha(\alpha-1)}{2!}x^2 + \dots$ |
 
->[!Example]
->- **$n=1$:** This is the **linear approximation** (or tangent line) at the point $a$:  
->$$
->    P1(x)=f(a)+f′(a)(x−a)
->$$
+## Restledd og feilestimering (Taylors formel med restledd)
+Taylor-polynomet er bare en tilnærming. Forskjellen mellom den virkelige funksjonen og polynomet kalles **restleddet** $R_n(x)$:
+$$f(x) = P_n(x) + R_n(x)$$
 
-#### Key Takeaway
+**Lagranges restleddsformel:**
+Det finnes et tall $c$ mellom $a$ og $x$ slik at:
+$$R_n(x) = \frac{f^{(n+1)}(c)}{(n+1)!}(x-a)^{n+1}$$
+Dette brukes til å finne en øvre grense for feilen i approksimasjonen.
 
-The higher the degree $n$ of the polynomial, and the closer $x$ is to the center point $a$, the better the approximation $P_n(x)$ will be to the true function value $f(x)$. It's like taking a magnifying glass to the function at that specific point and seeing it in more and more detail.
+## Praktisk tolkning av leddene
+1. **0. grad ($n=0$):** Konstant. $P_0(x) = f(a)$. (Vannrett linje gjennom punktet).
+2. **1. grad ($n=1$):** Tangentlinje. $P_1(x) = f(a) + f'(a)(x-a)$. (Lineær approksimasjon).
+3. **2. grad ($n=2$):** Legger til krumning (andrederivert). $P_2(x) = P_1(x) + \frac{f''(a)}{2}(x-a)^2$.
+4. **Høyere grad:** Jo flere ledd vi tar med, jo bedre "klistrer" polynomet seg til funksjonens faktiske form lenger bort fra $a$.
+
+## Eksempel: Approksimer $e^{0.1}$
+Vi vet $f(x) = e^x$, $a=0$.
+$P_3(x) = 1 + x + \frac{x^2}{2} + \frac{x^3}{6}$
+Med $x = 0.1$:
+$P_3(0.1) = 1 + 0.1 + \frac{0.01}{2} + \frac{0.001}{6} = 1 + 0.1 + 0.005 + 0.000166... \approx 1.10517$
+(Sann verdi: $e^{0.1} \approx 1.10517$. Allerede svært nøyaktig med kun 3. grad!)
+
+## Bruksområder
+- **Fysikk:** Små vinkel-approksimasjon ($\sin x \approx x$ for små $x$).
+- **Numerikk:** Datamaskiner bruker Taylor-rekker for å beregne verdier av $\sin$, $\cos$, $\exp$, $\log$ internt.
+- **Grenseverdier:** Erstatter kompliserte funksjoner med polynomer for å evaluere $\lim_{x \to 0}$ (f.eks. $\frac{\sin x - x}{x^3} = -\frac{1}{6}$).
+- **Differensialligninger:** Løsninger uttrykkes ofte som uendelige rekker.

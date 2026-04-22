@@ -1,47 +1,42 @@
-### Hva er feilleddet?
+# Lagranges restleddsformel (Taylor)
 
-Når en funksjon f(x) tilnærmes med et Taylor-polynom av grad n, angir feilleddet (eller restleddet) forskjellen mellom den faktiske verdien av funksjonen og tilnærmingen fra polynomet.
+## Formelen
+Hvis vi approksimerer en funksjon $f(x)$ med et Taylor-polynom $P_n(x)$ av grad $n$ om punktet $x = a$, kan vi skrive:
+$$f(x) = P_n(x) + R_n(x)$$
+der **restleddet** $R_n(x)$ er gitt ved **Lagranges formel**:
+$$R_n(x) = \frac{f^{(n+1)}(c)}{(n+1)!}(x-a)^{n+1}$$
 
-**Notasjon:**
-$$
-Rn(x)=f(x)−Pn(x)
-$$
-Her er $P_n(x)$ Taylor-polynomet av grad n utviklet om punktet a.
+## Hva betyr de ulike delene?
 
----
+| Symbol | Betydning | Forklaring |
+| :--- | :--- | :--- |
+| $R_n(x)$ | **Restleddet** | Den eksakte feilen vi gjør ved å bruke polynomet $P_n(x)$ i stedet for $f(x)$. |
+| $n$ | **Graden til polynomet** | Antall ledd i Taylor-polynomet *minus 1*. (Eks: $P_1(x)$ har $n=1$). |
+| $f^{(n+1)}$ | **Den $(n+1)$-te deriverte** | Hvis $n=1$, er dette den 2. deriverte ($f''$). Hvis $n=2$, er det den 3. deriverte ($f'''$). |
+| $c$ | **Et ukjent punkt** | $c$ er et tall som ligger **strengt mellom** $a$ og $x$. Vi vet ikke nøyaktig hva $c$ er, men vi vet at det finnes. |
+| $(n+1)!$ | **Fakultet av $(n+1)$** | $(n+1)! = 1 \cdot 2 \cdot 3 \cdots (n+1)$. Dette tallet vokser veldig raskt og gjør restleddet mindre for høye $n$. |
+| $(x-a)^{n+1}$ | **Avstanden fra sentrum** | Avstanden fra punktet vi utvikler om ($a$) til punktet vi evaluerer i ($x$), opphøyd i $n+1$. Hvis $x$ er nær $a$, blir denne potensen veldig liten. |
 
-### Lagranges form for restleddet
+## Hvordan bruker vi den i praksis?
+Siden vi ikke vet verdien av $c$, kan vi ikke beregne $R_n(x)$ eksakt. Vi bruker derfor formelen til å finne en **øvre grense for feilen**:
 
-Den mest brukte formen for å uttrykke feilen er på Lagrange-form:
+1. Finn den maksimale verdien av $|f^{(n+1)}(c)|$ for alle $c$ i intervallet mellom $a$ og $x$. La oss kalle dette maksimum $M$.
+2. Da er feilen **garantert mindre enn**:
+$$|R_n(x)| \le \frac{M}{(n+1)!} |x-a|^{n+1}$$
 
-$$
-R_n(x)=\frac{f^{n+1}(c)}{(n+1)!}(x−a)^{n+1}​
-$$
+## Eksempel med $\sin(x)$ og $n=1$
+- $a = 0$, $x = 1/7$, $n=1$.
+- $f''(x) = -\sin(x)$. Maksimum av $|-\sin(c)|$ i intervallet $[0, 1/7]$ er $\sin(1/7)$.
+- $(n+1)! = 2! = 2$.
+- $(x-a)^{n+1} = (1/7)^2 = 1/49$.
 
-**Forklaring av variablene:**
+Gir grensen: $|R_1(x)| \le \frac{\sin(1/7)}{2} \cdot \frac{1}{49} \approx 0.00145$.
 
-- $f^{n+1}$: Den (n+1)-te deriverte av funksjonen.
-    
-- c: Et **ukjent** tall som ligger et sted mellom a (sentrum for Taylor-utviklingen) og x (punktet du ønsker å evaluere).
-    
-- (n+1)!: Faktorialet til n+1, som sørger for at feilen minker raskt når n øker.
-    
-- $(x−a)^{n+1}$: Avstanden mellom punktet du evaluerer i og sentrum, opphøyd i n+1.
-    
+## Alternativ form: Cauchys restledd
+Det finnes en annen variant som av og til gir en strammere grense, men Lagranges er den vanligste:
+$$R_n(x) = \frac{f^{(n+1)}(c)}{n!}(x-c)^n(x-a)$$
+(Brukes sjeldnere i grunnleggende kalkulus.)
 
-### Hva betyr dette i praksis?
-
-- **Proporsjonalitet:** Feilen er proporsjonal med den (n+1)-te deriverte et sted i intervallet mellom a og x.
-    
-- **Nærhet til sentrum:** Desto nærmere x er a, desto mindre blir faktoren (x−a)n+1, og følgelig blir feilen mindre.
-    
-- **Estimering av feil:** Siden c er ukjent, kan vi ikke regne ut den eksakte feilen. I stedet brukes formelen til å finne en **øvre grense** for feilen. Dette gjøres ved å finne maksimalverdien til $∣f(n+1)(c)∣$ på intervallet mellom a og x.
-    
-
-### Forutsetninger og konsekvenser
-
-1. **Krav til funksjonen:** Formelen forutsetter at f er (n+1) ganger deriverbar på intervallet som inneholder a og x.
-    
-2. **Økt presisjon med høyere grad:** Når graden n på polynomet øker, vil feilen typisk bli mye mindre fordi vi dividerer med (n+1)!, som vokser eksplosivt.
-    
-3. **Praktisk bruk:** Hovedformålet med feilleddet er å kunne kvantifisere hvor god tilnærmingen er, for eksempel for å forsikre seg om at feilen er mindre enn en gitt toleranse.
+## Viktig skille
+- **Taylor-polynom:** Det vi regner ut med $a$ og $x$.
+- **Restledd:** Det vi *ikke* regner ut, men som estimerer hvor stor feil vi gjør.

@@ -29,7 +29,7 @@ Regn ut determinanten D av hesse matrisen i punktet du evaluerer (ad-bc).
 >
 >Sadelpunkt:
 >$$
->D > 0
+>D < 0
 >$$
 >
 >inkoklusiv:
