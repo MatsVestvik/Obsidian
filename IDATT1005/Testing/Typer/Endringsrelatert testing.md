@@ -1,0 +1,2 @@
+Regresjonstesting
+konfigurasjonstesting

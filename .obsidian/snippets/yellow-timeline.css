@@ -1,0 +1,28 @@
+/* --- Main Timeline Line (Vertical) --- */
+.timeline .vis-timeline {
+  border-color: #f0c000; /* Yellow border around the whole timeline */
+}
+/* --- Axis Labels (Dates) --- */
+.timeline .vis-time-axis .vis-text {
+  color: #e6b800; /* Golden yellow labels */
+}
+/* --- The Main Central Line --- */
+.timeline .vis-item.vis-line {
+  background-color: #ffcc00 !important; /* Bright yellow line */
+  border-color: #d4a017 !important;
+}
+/* --- The Content Card Background --- */
+.timeline .vis-item .vis-item-content {
+  background-color: #fff2cc; /* Soft yellow background */
+  border-left: 4px solid #ffcc00; /* Bright yellow left border */
+  color: #3b2e00; /* Dark brown-yellow text */
+}
+/* --- The Title & Date Text Inside Cards --- */
+.timeline .vis-item .vis-item-title {
+  color: #cc9900; /* Deep golden title */
+  font-weight: bold;
+}
+/* --- Optional Hover Effect: Makes it brighter --- */
+.timeline .vis-item:hover .vis-item-content {
+  background-color: #ffe6a3;
+}

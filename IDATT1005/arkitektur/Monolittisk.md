@@ -1,0 +1,1 @@
+ bygg alt ingen indelinger. Bidrar til rakere utvikling på mindre prosjekter

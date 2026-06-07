@@ -1,0 +1,2 @@
+- _høy styrke_ high cohesion. Betyr at en komponent ar et eller få ansvarsområde. 
+- _lav kopling_ lave koblinger ønsker å ha få koblinger mellom komponenter. det er alltid nødvendig med noen for at programmet skal fungere men ha få slik at endringer et sted ikke forgrener seg. 

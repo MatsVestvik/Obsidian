@@ -1,0 +1,10 @@
+{
+	"nodes":[
+		{"id":"f2323ab5157fa656","type":"file","file":"Plants/Avocado Timeline.md","x":-460,"y":-300,"width":440,"height":560},
+		{"id":"062f2facab70b3c9","type":"file","file":"Plants/Ficus Ginseng.md","x":40,"y":-300,"width":400,"height":400},
+		{"id":"6a96b0bcc3cf3d3b","type":"file","file":"Plants/Lemon.md","x":480,"y":-300,"width":400,"height":280},
+		{"id":"4c9b742458327a56","type":"file","file":"Plants/Paprika.md","x":940,"y":-300,"width":400,"height":460},
+		{"id":"1b446cada5a1b082","type":"file","file":"Plants/Tomato.md","x":1400,"y":-300,"width":400,"height":400}
+	],
+	"edges":[]
+}

@@ -1,0 +1,1 @@
+Laplcae transformasjonen er når vi skriver en funksjonav to variabler som en funskjon av en variabel. 

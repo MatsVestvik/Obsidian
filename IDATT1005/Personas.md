@@ -1,0 +1,1 @@
+Brukerhistorier kan benyttes for å plasseres i hodet til noen som er avhenig av unversel utforming.

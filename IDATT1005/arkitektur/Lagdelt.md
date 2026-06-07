@@ -1,0 +1,1 @@
+Moduler organiseres horisontalt slik at et lag kun ber om tjenster direkte under seg

@@ -1,0 +1,6 @@
+Ytelselstesting
+Sikkerhetstesting
+Brukbarhetstesting
+Kompatibilitetstesting
+pålitlighetstesting
+Skalerbarhetstesting

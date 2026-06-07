@@ -1,0 +1,3 @@
+Smoke testing
+Sanity testing
+Regresjonstesting

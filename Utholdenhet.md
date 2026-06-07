@@ -1,0 +1,1 @@
+Her er målet å se hva som skjer med systemet etter lang tid med last, målet er å finne forbedringspotesialer.

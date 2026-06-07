@@ -1,0 +1,41 @@
+{
+	"nodes":[
+		{"id":"25bef8d06fe286c2","type":"file","file":"IDATT2002/INDEX.md","x":-129,"y":-2397,"width":400,"height":237},
+		{"id":"3b295f84d6373ff0","type":"file","file":"IDATT2002/MySql.md","x":-580,"y":20,"width":400,"height":400},
+		{"id":"9f26e04c58924a72","type":"file","file":"IDATT2002/UML.md","x":10,"y":-80,"width":400,"height":400},
+		{"id":"83fbbac51155bddf","type":"file","file":"IDATT2002/Create Table.md","x":-1520,"y":-760,"width":820,"height":517},
+		{"id":"34937d401f1d5acd","type":"file","file":"IDATT2002/mange til mange.md","x":-2220,"y":-940,"width":560,"height":439},
+		{"id":"c5b97bcdcf3f2b80","type":"file","file":"IDATT2002/Fagbegreper.md","x":-280,"y":-1400,"width":1180,"height":800},
+		{"id":"76ff40c5797b3b13","type":"file","file":"IDATT2002/Select.md","x":-1220,"y":-2200,"width":840,"height":1260},
+		{"id":"a537137e6d802a37","type":"file","file":"IDATT2002/Relasjons modell.md","x":-50,"y":520,"width":520,"height":620},
+		{"id":"fd504441e8d7101b","type":"file","file":"IDATT2002/ER diagram.md","x":500,"y":-80,"width":400,"height":400},
+		{"id":"84125bf136c2ae1c","type":"file","file":"IDATT2002/Insert into.md","x":-1920,"y":-1440,"width":400,"height":340},
+		{"id":"a5c83c0d3fa660b3","type":"file","file":"IDATT2002/Alter Table.md","x":-2170,"y":-2320,"width":900,"height":537},
+		{"id":"52609af1299c316a","type":"file","file":"IDATT2002/Data Types.md","x":-2220,"y":-400,"width":560,"height":1000},
+		{"id":"a97b172af89f8c65","type":"file","file":"IDATT2002/NF.md","x":680,"y":-3120,"width":988,"height":1648},
+		{"id":"6bfabef5837798a8","type":"file","file":"IDATT2002/VIEW.md","x":-800,"y":-3120,"width":600,"height":780},
+		{"id":"9609e3e181b41cd8","type":"file","file":"IDATT2002/Databaser.md","x":-780,"y":1140,"width":400,"height":180},
+		{"id":"ef640fc53b64ceea","type":"file","file":"IDATT2002/Låser.md","x":-1400,"y":1120,"width":400,"height":600},
+		{"id":"1947e3977bf02dfe","type":"file","file":"IDATT2002/Transaction.md","x":-1400,"y":420,"width":400,"height":400},
+		{"id":"8ffcca141559276e","type":"file","file":"IDATT2002/ACID.md","x":-1880,"y":940,"width":400,"height":400}
+	],
+	"edges":[
+		{"id":"28322e96265ced94","fromNode":"83fbbac51155bddf","fromSide":"left","toNode":"34937d401f1d5acd","toSide":"right"},
+		{"id":"ff49da1560732b26","fromNode":"3b295f84d6373ff0","fromSide":"top","toNode":"83fbbac51155bddf","toSide":"right"},
+		{"id":"a64eb646866d9998","fromNode":"3b295f84d6373ff0","fromSide":"top","toNode":"c5b97bcdcf3f2b80","toSide":"bottom"},
+		{"id":"a7c9b71adf2a635e","fromNode":"83fbbac51155bddf","fromSide":"top","toNode":"76ff40c5797b3b13","toSide":"bottom"},
+		{"id":"0ce004deb0f89955","fromNode":"83fbbac51155bddf","fromSide":"top","toNode":"84125bf136c2ae1c","toSide":"bottom"},
+		{"id":"7efcf988515b8c5f","fromNode":"a537137e6d802a37","fromSide":"left","toNode":"3b295f84d6373ff0","toSide":"bottom"},
+		{"id":"c00f5dff93bb9ef2","fromNode":"a537137e6d802a37","fromSide":"top","toNode":"9f26e04c58924a72","toSide":"bottom"},
+		{"id":"6dc1f73dfd205f26","fromNode":"a537137e6d802a37","fromSide":"top","toNode":"fd504441e8d7101b","toSide":"bottom"},
+		{"id":"0af6c8ae6b8e5178","fromNode":"c5b97bcdcf3f2b80","fromSide":"right","toNode":"a97b172af89f8c65","toSide":"bottom"},
+		{"id":"41d02ba51e1fad9e","fromNode":"83fbbac51155bddf","fromSide":"top","toNode":"a5c83c0d3fa660b3","toSide":"bottom"},
+		{"id":"21e85e4a494aab6c","fromNode":"76ff40c5797b3b13","fromSide":"top","toNode":"6bfabef5837798a8","toSide":"bottom"},
+		{"id":"b1976f0377571cd6","fromNode":"76ff40c5797b3b13","fromSide":"right","toNode":"25bef8d06fe286c2","toSide":"bottom"},
+		{"id":"c2cbe17f0c140f30","fromNode":"83fbbac51155bddf","fromSide":"left","toNode":"52609af1299c316a","toSide":"right"},
+		{"id":"b4e3cca32603eb77","fromNode":"3b295f84d6373ff0","fromSide":"left","toNode":"1947e3977bf02dfe","toSide":"top"},
+		{"id":"e4b0b530159101a7","fromNode":"9609e3e181b41cd8","fromSide":"top","toNode":"a537137e6d802a37","toSide":"left"},
+		{"id":"8fd902e65ab64561","fromNode":"1947e3977bf02dfe","fromSide":"bottom","toNode":"8ffcca141559276e","toSide":"top"},
+		{"id":"2a2ed9ffaac8394d","fromNode":"1947e3977bf02dfe","fromSide":"bottom","toNode":"ef640fc53b64ceea","toSide":"top"}
+	]
+}

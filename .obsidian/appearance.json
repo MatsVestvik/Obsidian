@@ -1,5 +1,8 @@
 {
   "cssTheme": "Tokyo Night",
   "accentColor": "",
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "enabledCssSnippets": [
+    "yellow-timeline"
+  ]
 }

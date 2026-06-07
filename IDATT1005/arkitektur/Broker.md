@@ -1,0 +1,1 @@
+komponenter kommuniserer igjennom en megler som fasiliterer kommunikasjon. sammenlignbart med en ekte megler

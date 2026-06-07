@@ -1,0 +1,1 @@
+Lax Friedrichs' metode er en numerisk løsning av adveksjonsligningen/transportligningen/konveksjonsligninen. 

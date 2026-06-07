@@ -1,5 +1,6 @@
 {
   "alwaysUpdateLinks": true,
   "livePreview": false,
-  "vimMode": true
+  "vimMode": true,
+  "spellcheck": false
 }

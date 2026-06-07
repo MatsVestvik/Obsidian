@@ -1,0 +1,1 @@
+Vanlig last på systemet over lang tid.  Målet er å finne ut hvordan my last sytemet kan håndtere

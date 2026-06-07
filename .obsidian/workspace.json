@@ -4,24 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "ffa2ebea327ac6c0",
+        "id": "3560cd05612c842b",
         "type": "tabs",
         "children": [
           {
-            "id": "75be5e1648977b02",
+            "id": "0fa6c1a285945f32",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
-                "file": "IMAT2024.canvas",
+                "file": "IDATT1005/Systemutvilking.canvas",
                 "viewState": {
-                  "x": 1351.4111888252542,
-                  "y": -649.7506275107086,
-                  "zoom": -0.5112089460068934
+                  "x": 214.91999999999905,
+                  "y": 2354,
+                  "zoom": -1
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "IMAT2024"
+              "title": "Systemutvilking"
             }
           }
         ]
@@ -81,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288.5
+    "width": 200
   },
   "right": {
     "id": "677f4700477d5715",
@@ -186,51 +186,58 @@
       "bases:Create new base": false
     }
   },
-  "active": "75be5e1648977b02",
+  "active": "0fa6c1a285945f32",
   "lastOpenFiles": [
-    "Feilledd med to variabler.md",
-    "Taylorplynom med 2 variabler.md",
-    "Integrasjons og Derivasjons regler.md",
-    "Formelark_IMAx2024_2026.pdf",
-    "Nabo Matrise.md",
-    "Vandringer.md",
-    "Hamiltonske.md",
-    "Eulerske grafer.md",
-    "bipartitt.md",
-    "Sammenhengende.md",
-    "Enkel graf.md",
-    "test.md",
-    "Module 3/GrafTeori.md",
-    "Module 3/Kongruens regning.md",
-    "Module 3/Generell løsning.md",
-    "Module 3/Lineær diafontisk ligning.md",
-    "IMAT2024.canvas",
-    "Module 3/Least Common Multiplum.md",
-    "Module 3/Predikater.md",
-    "README.md",
-    "Module 3/Euklidis.md",
-    "Module 3/Tallære.md",
-    "Module 3/Utsagns Logikk.md",
-    "Module 3/Argumenter.md",
-    "Module 3/Venn diagrams and notations.md",
-    "Module 3/Discrete mathematics.md",
-    "Module 2/Laplace Transformasjon.md",
-    "Module 1/Feilledd.md",
-    "Module 3/venn.png",
-    "Module 3/numbers.png",
-    "Module 3/numbers-removebg-preview.png",
-    "Module 1/TangentPlan.png",
-    "Module 1/Hesse.png",
-    "Module 1/3D.png",
-    "Pasted image 20260314155845.png",
-    "Pasted image 20260314155803.png",
-    "Module 3/venn diagram.canvas",
+    "Mobilsted design.md",
+    "Rettningslinjer.md",
+    "Menneske Maskin Interaksjon.md",
+    "Plants/Plants.canvas",
+    "IDATT1005/Systemutvilking.canvas",
+    "IMAT2024/IMAT2024.canvas",
+    "IDATT1005/GDPR.md",
+    "Agile Manifesto.md",
+    "Agile Manifest.md",
+    "Tradisjonell testing.md",
+    "Utholdenhet.md",
+    "Ytelse.md",
+    "Kompleksitetshåndtering.md",
+    "IDATT1005/Roadmap.md",
+    "UP.md",
+    "Waterfall.md",
+    "XP.md",
+    "Pasted image 20260527134506.png",
+    "Pasted image 20260527134421.png",
+    "TDD vs BDD vs FDD vs DDD.md",
+    "Geoffrey Moore.md",
+    "Visjonsdukument.md",
+    "LOAD.md",
+    "STRESS.md",
+    "SPIKE.md",
+    "IDATT1005/Prosjektbaser vs Produktbasert.md",
+    "IDATT1005/Personas.md",
+    "IDATT1005/arkitektur/Broker.md",
+    "IDATT1005/arkitektur/Hexagonal.md",
+    "IDATT1005/Testing/Stratergier/Modulær.md",
+    "IDATT1005/Testing/Stratergier",
+    "IDATT1005/Testing/Typer",
+    "IDATT1005/Testing",
+    "Plants/Risikobasert.md",
     "Untitled.base",
-    "tips and tricks",
-    "Pasted image 20260313161040.png",
-    "Pasted image 20260313161155.png",
-    "Module 1",
-    "Module 2",
-    "Module 3"
+    "IDATT2002/Databaser.canvas",
+    "IDATT1005/arkitektur",
+    "IDATT1005",
+    "IDATT2002/img/Pasted image 20260509122902.png",
+    "IDATT2002/img",
+    "IDATT2002/Forelesninger",
+    "IDATT2002",
+    "General",
+    "Module 3/venn.png",
+    "IMAT2024/Module 3/numbers.png",
+    "Module 3/numbers-removebg-preview.png",
+    "IMAT2024/Module 1/TangentPlan.png",
+    "Module 1/Hesse.png",
+    "IMAT2024/Module 1/3D.png",
+    "Pasted image 20260314155845.png",
+    "Module 3/venn diagram.canvas"
   ]
 }

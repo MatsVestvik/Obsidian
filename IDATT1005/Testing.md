@@ -1,0 +1,4 @@
+- _Enhetstesting_ tester individuelle komponenter
+- _Integrasjonstesting_ tester funksjonalitet som en helhet
+- _systemtetesting_ tester hele systemer
+- _Akseptansetesting_ produkteier tester produktet for å se om det er godkjent

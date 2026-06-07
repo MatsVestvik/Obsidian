@@ -1,0 +1,1 @@
+Klassser kan kommunisere med hverandre uten en sentral tjener
