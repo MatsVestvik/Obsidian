@@ -4,24 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "3560cd05612c842b",
+        "id": "f898eda53ddf6ec2",
         "type": "tabs",
         "children": [
           {
-            "id": "0fa6c1a285945f32",
+            "id": "de8815cd800f3183",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "bases",
               "state": {
-                "file": "IDATT1005/Systemutvilking.canvas",
-                "viewState": {
-                  "x": 214.91999999999905,
-                  "y": 2354,
-                  "zoom": -1
-                }
+                "file": "Directory.base",
+                "viewName": "Table"
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Systemutvilking"
+              "icon": "lucide-table",
+              "title": "Directory"
             }
           }
         ]
@@ -186,33 +182,34 @@
       "bases:Create new base": false
     }
   },
-  "active": "0fa6c1a285945f32",
+  "active": "de8815cd800f3183",
   "lastOpenFiles": [
-    "Mobilsted design.md",
-    "Rettningslinjer.md",
-    "Menneske Maskin Interaksjon.md",
-    "Plants/Plants.canvas",
+    "Directory.base",
+    "IDATT1005/Agile Manifest.md",
     "IDATT1005/Systemutvilking.canvas",
+    "IDATT1005/Mobilsted design.md",
+    "IDATT1005/Rettningslinjer.md",
+    "IDATT1005/Menneske Maskin Interaksjon.md",
+    "Plants/Plants.canvas",
     "IMAT2024/IMAT2024.canvas",
     "IDATT1005/GDPR.md",
-    "Agile Manifesto.md",
-    "Agile Manifest.md",
-    "Tradisjonell testing.md",
-    "Utholdenhet.md",
-    "Ytelse.md",
-    "Kompleksitetshåndtering.md",
+    "IDATT1005/Agile Manifesto.md",
+    "IDATT1005/Tradisjonell testing.md",
+    "IDATT1005/Utholdenhet.md",
+    "IDATT1005/Ytelse.md",
+    "IDATT1005/Kompleksitetshåndtering.md",
     "IDATT1005/Roadmap.md",
-    "UP.md",
-    "Waterfall.md",
-    "XP.md",
-    "Pasted image 20260527134506.png",
-    "Pasted image 20260527134421.png",
-    "TDD vs BDD vs FDD vs DDD.md",
-    "Geoffrey Moore.md",
-    "Visjonsdukument.md",
-    "LOAD.md",
-    "STRESS.md",
-    "SPIKE.md",
+    "IDATT1005/UP.md",
+    "IDATT1005/Waterfall.md",
+    "IDATT1005/XP.md",
+    "IDATT1005/Pasted image 20260527134506.png",
+    "IDATT1005/Pasted image 20260527134421.png",
+    "IDATT1005/TDD vs BDD vs FDD vs DDD.md",
+    "IDATT1005/Geoffrey Moore.md",
+    "IDATT1005/Visjonsdukument.md",
+    "IDATT1005/LOAD.md",
+    "IDATT1005/STRESS.md",
+    "IDATT1005/SPIKE.md",
     "IDATT1005/Prosjektbaser vs Produktbasert.md",
     "IDATT1005/Personas.md",
     "IDATT1005/arkitektur/Broker.md",
@@ -221,8 +218,6 @@
     "IDATT1005/Testing/Stratergier",
     "IDATT1005/Testing/Typer",
     "IDATT1005/Testing",
-    "Plants/Risikobasert.md",
-    "Untitled.base",
     "IDATT2002/Databaser.canvas",
     "IDATT1005/arkitektur",
     "IDATT1005",
